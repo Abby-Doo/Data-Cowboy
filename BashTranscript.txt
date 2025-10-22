@@ -1,0 +1,43 @@
+I had so much trouble trying to get the file to curl to my ubuntu. Something is wrong with it connecting to the internet for the last couple days and I could not use it to push to GitHub either. So what I did was use the Sol supercomputer (I have access from another course) to curl (curl -s -L -o log.tar.gz  https://www.dropbox.com/s/14jagxjbzhyxg8g/log.tar.gz) the file and then I downloaded it to my machine. From there I copied it and was able to extract it. 
+142  curl google.com
+  143  rm log.tar
+  144  cp /mnt/c/Users/abiga/downloads/log.tar.gz
+  145  cp /mnt/c/Users/abiga/downloads/log.tar.gz .
+  146  ls -l -h
+  147  tar -xvzf log.tar.gz
+  148  grep -i "education*.txt" log.csv
+  149  grep -i "*.txt" log.csv | grep -i "education*"
+  150  grep "*.txt" log.csv
+  151  grep *.txt log.csv
+  152  grep -i "txt"
+  153  grep -i "txt" log.csv
+  154  grep -i "\.txt" log.csv
+  155  grep -i "\.txt" log.csv |grep "education*"
+  156  tail log.csv
+  157  git clone https://github.com/Abby-Doo/Data-Cowboy.git
+  158  grep -i "\.txt" log.csv |grep "education*" > Project1.txt
+  159  ls
+  160  cp Project1.txt /mnt/c/Users/abiga/Data-Cowboy
+    history
+After saving the file, I used Bash for windows instead of ubuntu. 
+ 1  git clone https://github.com/Abby-Doo/Data-Cowboy.git
+    2  cd Data-Cowboy
+    3  cygpath w ~
+    4  ls
+    5  git status
+    6  git add Project1.txt
+    7  git status
+    8  git commit -m "Abby Krause grep result from log.csv file"
+    9   git config --global user.email "abigail.krause@outlook.com"
+   10  git config --global user.name Abby-Doo
+   11  git commit -m "Abby Krause grep result from log.csv file"
+   12  git status
+   13  git push
+   14  git push
+   15  git push
+   16  git push
+   17  notepad.exe Project1.txt
+   18  git status
+   19  notepad.exe BashTranscript.txt
+   20  notepad.exe BashTranscript.txt &
+   21  history
